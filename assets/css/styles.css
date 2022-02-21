@@ -1,0 +1,484 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Oswald&display=swap');
+/* reset CSS */
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    font-family: "Oswald";
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ /* comon */
+ .row{
+    padding: 8px 16px;
+    background-color: #f1f1f1!important;
+    display: flex;
+     
+ }
+
+ .white-bg{
+    background-color: #fff !important;
+ }
+
+ .black-bg{
+    background-color: #000 !important;
+ }
+ .col-half{
+     width: 50%;
+ }
+ .flex-col{
+    display: flex !important;
+    flex-direction: column !important;
+ }
+ .flex{
+    display: flex !important;
+    
+ }
+ .padding-16{
+     padding: 16px;
+ }
+
+.col-66{
+    width: 66.666666%;
+ }
+ .col-33{
+    width: 33.3333%;
+ }
+.col-16{
+    width: 16.6666%;
+ }
+ .col-83{
+    width: 83.33333%;
+ }
+ .text-white{
+    color: #fff !important;
+ }
+.margin-bot-16{
+    margin-bottom: 16px !important;
+}
+.button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.margin-16{
+    margin: 16px;
+}
+.margin-10-0{
+    margin: 10px 0px;
+}
+.margin-bot-top-15{
+    margin: 15px 0px;
+}
+.margin-bottom {
+    margin-bottom: 16px!important;
+}
+.nav{
+    width: 100%;
+    height: 38px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.container-icons{
+    display: flex;
+    align-items: center;
+}
+.nav .container-icons a{
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    
+}
+.nav .container-icons a:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.search-btn{
+   color: #fff;
+   padding: 8px 16px;
+   cursor: pointer;
+}
+.brand-container{
+    
+    padding: 46px 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Oswald"; */
+    
+}
+.brand-container h1{
+    
+    font-size: 48px;
+    margin: 10px 0px;
+    
+    
+}
+.brand-container h6{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.hight-light{
+    background-color: #000;
+    color: #fff;
+    padding: 0px 8px;
+    font-weight: 400;
+}
+.brand-imagine{
+    position: relative;
+    
+}
+
+.brand-imagine img{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+.brand-text-container{
+    position: absolute;
+    top: 33%;
+    left: 0%;
+    padding: 12px 24px;
+    /* font-family: "Oswald"; */
+    
+       
+}
+.brand-text-container h1{
+    font-size: 36px;
+    margin: 10px 0px;
+}
+.brand-text-container b{
+    font-size: 64px;
+}
+.subscribe-btn{
+    display: block;
+    margin: 10px 0px;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.subscribe-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.content-container{
+    padding: 12px 24px;
+    margin: 16px;
+    background-color: #fff;
+}
+.center{
+    text-align: center;
+}
+.center .title{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.center .time{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.center .time span{
+    opacity: 0.6;
+}
+.justify .thump{
+    width: 100%;
+    padding: 10px 0px;
+}
+.justify p{
+    margin: 15px 0px;
+    font-size: 15px;
+    text-align: justify;
+}
+.clear{
+    margin: 15px 0px;
+}
+.clear .like-btn{
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #000;
+    background-color:rgba(188, 143, 143, 0);
+    border: 1px solid #ccc;
+    
+}
+
+.clear .like-btn:hover{
+    background-color: #ccc ;
+    cursor: pointer;
+}
+.clear .replies-btn{
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color:rgb(0, 0, 0);
+    float: right;  
+    border: none;
+}
+.clear .replies-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+}
+.clear .replies-btn span{
+    background-color: #fff;
+    padding: 0 4px;
+    margin-left: 4px;
+    color: #000;
+}
+.show{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+}
+.show .avatar{
+    font-size: 15px;
+    width: 90px;
+    height: 100px;
+}
+.show h4 {
+    font-size: 20px;
+}
+.show h4 span{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.show p{
+    font-size: 15px;
+    margin: 15px 0px;
+}
+.col-33 .margin-16 .avatar{
+    width: 100%;
+    vertical-align: middle;
+    filter: grayscale(75%);
+    
+}
+.margin-16 .container-content{
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+}
+.container-content h4{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.container-content p {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+.mini-header {
+    padding: 8px 16px;
+    /* text-align: center; */
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd ;
+}
+.list-item {
+    list-style-type: none;
+}
+.img-item{
+    width: 50px;
+    margin-right: 15px;
+}
+.span-container {
+    display: flex;
+    flex-direction: column;
+}
+.span-container .name-item{
+    font-size: 18px;
+}
+.span-container .item-dcr{
+    font-size: 15px;
+}
+li.padding-16 {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd ;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.list-item li:hover{
+    background-color: #ddd;
+}
+.content-ad{
+    padding: 16px;
+    height: 200px;
+    background-color: #ddd;
+    position: relative;
+   
+}
+.content-ad p{
+    position: absolute;   
+    top: 44%;
+    left: 40%;
+}
+.tag-container{
+    margin: 10px 0px;
+}
+.padding-16 .tag{
+    padding: 0px 8px;
+    background-color: #f1f1f1;
+}
+.inspiration-img{
+    width: 100%;
+    vertical-align: middle;
+    margin: 8px 0px;
+}
+.container-img{
+    padding: 0px 8px;
+}
+.padding-16 i{
+    font-size: 24px;
+    margin-right: 4px;
+}
+.padding-16 i:hover{
+    opacity: 0.6;
+}
+.subscribe-container{
+    padding: 0.15px 16px;
+}
+.subscribe-container input{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.subscribe-container button{
+    background-color: #f44336;
+    color: #fff;
+    width: 100%;
+    text-transform: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+.subscribe-container button:hover{
+    background-color: #ccc ;
+    color: #000;
+    cursor: pointer;
+}
+.subscribe-container p{
+    margin: 16px 0px;
+}
+#footer{
+    padding: 32px;
+    background-color: #616161;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#footer .top-btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin-bottom: 16px !important;  
+    max-width: 153px;
+}
+#footer .top-btn:hover{
+    color: #000;
+    background-color: #ddd;
+
+}
+#footer .top-btn i{
+    margin-right: 16px;
+}
+#footer .coppyright{
+    margin: 15px 0px;
+    color: #fff;
+}
+#footer .coppyright a{
+    color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    padding: 100px 0px;
+}
+.modal-container {
+    margin: auto;
+    background-color: #fff;
+    padding: 32px;
+    width: 900px;
+    height: fit-content;
+    animation: modalFadeIn ease 0.5s;
+}
+
+.modal-container input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+.modal-container .subscribe-modal-btn{
+    width: 100%;
+    background-color: #f44336;
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+.modal-container h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.modal-container .subscribe-modal-btn:hover{
+    background-color: #ccc ;
+    color: #000;
+    cursor: pointer;
+}
+.open{
+    display: block;
+}
+.close-btn{
+    float: right;
+    padding: 8px 16px;
+}
+.close-modal-btn{
+    padding: 10px 16px;
+    border: none;
+    background-color: #fff ;
+    float: right;
+}
+.close-modal-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-100px);
+        opacity: 0.5;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
